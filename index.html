@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdin Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white border-r border-gray-200 sticky top-0 sidebar">
+            <div class="p-6">
+                <h1 class="text-2xl font-bold text-green-700 mb-6">Menu</h1>
+                <ul>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-gray-700 p-3 transition-ease">
+                            <i class="fas fa-home mr-2"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-gray-700 p-3 transition-ease">
+                            <i class="fas fa-chart-line mr-2"></i>
+                            <span>Recompensas</span>
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-gray-700 p-3 transition-ease">
+                            <i class="fas fa-bullseye mr-2"></i>
+                            <span>Contribuições</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center text-gray-700 p-3 transition-ease">
+                            <i class="fas fa-cog mr-2"></i>
+                            <span>Configurações</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="flex-grow p-8">
+            <div class="container mx-auto">
+                <h1 class="text-4xl font-bold text-left text-green-700 mb-6">Olá, Maria</h1>
+                <div class="flex items-center justify-between mb-6">
+                    <div
+                        class="bg-green-700 rounded-lg shadow-md p-4 text-white flex items-center transition-ease card">
+                        <p class="text-lg mr-2">Saldo atual:</p>
+                        <span class="font-semibold text-xl">$1,234.56</span>
+                        <i class="fas fa-eye ml-4 cursor-pointer"></i>
+                    </div>
+                    <button
+                        class="bg-green-700 hover:bg-green-500 text-white font-bold py-2 px-4 rounded transition-ease">
+                        Adicionar Fundos <i class="fas fa-plus ml-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container mx-auto mt-12">
+                <h2 class="text-2xl font-bold text-left text-green-700 mb-6">Seu Impacto</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-tree fa-2x text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Árvores Plantadas</h3>
+                        <p class="text-gray-700">Você ajudou a plantar 50 árvores este mês!</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-recycle fa-2x text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Reciclagem</h3>
+                        <p class="text-gray-700">Você reciclou 100kg de resíduos.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-globe-americas fa-2x text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Emissões Reduzidas</h3>
+                        <p class="text-gray-700">Você reduziu suas emissões de CO2 em 25%.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto mt-12">
+                <h2 class="text-2xl font-bold text-left text-green-700 mb-6">Suas metas</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-car fa-2x text-blue-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Carro Eco-Friendly</h3>
+                        <p class="text-gray-700">Economize para um carro elétrico.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-seedling fa-2x text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Horta em Casa</h3>
+                        <p class="text-gray-700">Cultive sua própria horta orgânica.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-lightbulb fa-2x text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Energia Renovável</h3>
+                        <p class="text-gray-700">Instale painéis solares.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 transition-ease card">
+                        <i class="fas fa-bicycle fa-2x text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Ciclismo</h3>
+                        <p class="text-gray-700">Use mais a bicicleta para deslocamentos.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
